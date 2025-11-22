@@ -35,7 +35,11 @@ app = FastAPI(
 # Configuration CORS pour permettre les requêtes depuis le frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # Vite par défaut sur 5173
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://mathconquestassistant.vercel.app",
+    ],  # Vite en local + domaine Vercel
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
