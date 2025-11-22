@@ -1,0 +1,11 @@
+# Version simplifiée sans compilation Rust
+# Utilisez ce fichier si vous rencontrez des problèmes avec requirements.txt
+
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+openai
+requests
+pydantic
+

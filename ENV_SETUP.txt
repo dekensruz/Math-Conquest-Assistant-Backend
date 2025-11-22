@@ -1,0 +1,17 @@
+===========================================
+  CONFIGURATION DU FICHIER .env
+===========================================
+
+Créez un fichier nommé ".env" dans ce dossier (backend/) avec le contenu suivant :
+
+-----------------------------------------------------------
+OPENAI_API_KEY=QJfMX9UVq5VVhxyamx7oWeL7i05oM2OmGQkEYvh3s49I3SXP0HbYOS4YrJQfg87g41BJ24A7YTHWGQL7L
+WOLFRAM_APP_ID=your_wolfram_app_id_here
+-----------------------------------------------------------
+
+La clé OpenAI est déjà fournie ci-dessus.
+Pour WolframAlpha, vous pouvez obtenir une clé gratuite sur :
+https://products.wolframalpha.com/api/
+
+Note: Le fichier .env est ignoré par Git pour des raisons de sécurité.
+

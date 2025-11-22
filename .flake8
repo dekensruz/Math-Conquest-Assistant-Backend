@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 100
+exclude = venv,env,.venv,__pycache__,migrations
+ignore = E203, W503
+
